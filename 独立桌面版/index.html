@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'self' data:; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:">
+<title>Kimi 桌面伙伴</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<button id="launcher" aria-label="打开设置">⚙</button>
+<canvas id="pet" width="320" height="320" aria-label="Kimi 桌面伙伴"></canvas>
+<section id="panel" hidden aria-label="桌宠设置">
+ <header><strong>Kimi 的小桌台</strong><button id="close" aria-label="关闭">×</button></header>
+ <nav><button id="tab-monitor" aria-selected="true">监控</button><button id="tab-settings" aria-selected="false">设置</button></nav>
+ <div id="monitor" class="page">
+  <div class="status"><i></i><div><b id="host-state">独立桌面运行</b><small id="host-name">正在寻找 Kimi 宿主</small><small id="session-name">正在寻找最近活动的会话</small></div></div>
+  <div class="metric quota"><span>剩余额度</span><div id="quota">点击刷新读取官方额度</div></div>
+  <div class="metric"><span>上下文长度</span><b id="context-tokens">等待读取</b></div>
+  <div class="metric"><span>轮次 / 步数</span><b id="turn-steps">等待读取</b></div>
+  <div class="metric"><span>压缩次数</span><b id="compactions">等待读取</b></div>
+  <div class="metric"><span>Token 速度</span><b id="token-speed">等待读取</b></div>
+  <div class="metric"><span>缓存命中率</span><b id="cache-hit-rate">等待读取</b></div>
+  <div class="metric"><span>已加载技能</span><b id="loaded-skills">等待读取</b></div>
+  <div class="metric"><span>工具（轮/总）</span><b id="tool-calls">等待读取</b></div>
+  <button id="refresh" class="refresh">刷新当前数据</button><small id="updated"></small><small id="monitor-updated"></small><small>来源：官方额度接口与最近活动的 wire.jsonl，仅解析指标</small>
+ </div>
+ <div id="settings" class="page" hidden>
+  <label class="switch-row">播放动画<input id="animation" type="checkbox" checked></label>
+  <label class="switch-row">自动轮换待机<input id="rotation" type="checkbox" checked></label>
+  <label class="size-row">桌宠大小 <output id="scale-value">100%</output><input id="scale" type="range" min="60" max="140" step="5" value="100"></label>
+  <p>场景预览</p><div class="scenes"><button data-scene="reading">☾ 月下阅读</button><button data-scene="rock">♫ 摇滚听歌</button><button data-scene="tea">♡ 与 GLM 递茶</button><button id="piano">♬ 古典钢琴</button></div>
+ </div>
+</section>
+<script src="pet.js"></script><script src="renderer.js"></script>
+</body></html>

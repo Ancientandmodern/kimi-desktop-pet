@@ -1,0 +1,17 @@
+{
+  "name": "kimi-desktop-pet",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Independent Electron desktop companion for Kimi and Kimi Code",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "demo": "cross-env KIMI_PET_DEMO=1 electron .",
+    "check": "node --check main.cjs && node --check preload.cjs && node --check renderer.js && node --check session-monitor.cjs && node --check quota.cjs && node --check tests/runtime.test.cjs && node --check tests/monitor.test.cjs && node --check tests/quota.test.cjs",
+    "test": "node tests/runtime.test.cjs && node tests/monitor.test.cjs && node --test tests/quota.test.cjs"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0",
+    "electron": "^39.2.7"
+  }
+}

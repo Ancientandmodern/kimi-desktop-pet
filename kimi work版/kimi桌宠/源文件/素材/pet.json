@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "kimi-work-companion",
+  "name": "Kimi 工作台伙伴",
+  "description": "四场景动画、真实 Coding 状态与桌面碎碎念",
+  "renderer": "three",
+  "three": {
+    "file": "pet.js"
+  },
+  "theme": {
+    "bubble": {
+      "background": "#445F7E",
+      "foreground": "#FFFFFF",
+      "border": "#6D829A"
+    }
+  },
+  "provenance": {
+    "provider": "manual",
+    "summary": "Approved v3 PNG sequences; no artwork regenerated"
+  }
+}

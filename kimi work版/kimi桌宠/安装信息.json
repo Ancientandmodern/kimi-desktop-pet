@@ -1,0 +1,14 @@
+{
+  "name": "Kimi 工作台伙伴",
+  "petId": "kimi-work-companion",
+  "widgetId": "widget_29f396ee-8c91-4d34-9153-aabd7da1639a",
+  "automationId": "automation_7b582b14-9c6f-4ca4-be68-38e2e8b68a28",
+  "bindingId": "binding_2097a313-d03b-4caf-a7d8-4f904291a4a4",
+  "entry": "完整界面/index.html",
+  "petPackage": "桌宠运行包",
+  "notes": [
+    "指标任务仅手动刷新，未启用自动轮询",
+    "凭据从本机环境变量读取，不包含在压缩包中",
+    "美术素材为已验收版本"
+  ]
+}
