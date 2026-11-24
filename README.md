@@ -14,12 +14,14 @@
 
 ## 📦 快速下载 (Release Downloads)
 
-> 💡 **面向普通用户**：若您不需要修改源码或配置开发环境，可直接前往本仓库的 **[Releases 页面](../../releases)** 下载解压即用的压缩包：
+> 💡 **面向普通用户**：若您不需要修改源码或配置开发环境，可直接前往本仓库的 **[Releases 页面](https://github.com/Ancientandmodern/kimi-desktop-pet/releases/tag/v1.0.0)** 下载解压即用的压缩包：
 > 
-> - 🚀 **`独立桌面版.zip`**：包含独立桌宠全部必要依赖与预构建文件的解压即用包。解压后直接双击 `启动 Kimi 桌宠.cmd` 即可运行，无需预先安装 Node.js 环境。
-> - 🧩 **`kimi work版.zip`**：面向 Kimi Work 工作台的一体化运行包与预设资源。
+> - 🚀 **[点击直接下载：独立桌面版免安装完整包 (139 MB)](https://github.com/Ancientandmodern/kimi-desktop-pet/releases/download/v1.0.0/Kimi_Desktop_Pet_Standalone.zip)**  
+>   包含独立桌宠全部必要依赖与预构建文件的解压即用包。解压后直接双击 `启动 Kimi 桌宠.cmd` 即可运行，无需预先安装 Node.js 环境。
+> - 🧩 **[点击直接下载：kimi work版运行包 (14.8 MB)](https://github.com/Ancientandmodern/kimi-desktop-pet/releases/download/v1.0.0/kimi.work.zip)**  
+>   面向 Kimi Work 工作台的一体化运行包与预设资源。
 > 
-> *(注：上述两套 zip 压缩包仅作为成品下载使用，仓库源码树仅收录核心代码、脚本与素材源文件。)*
+> *(注：上述两套 zip 压缩包作为成品下载使用，仓库源码树保持轻量，仅收录核心代码、脚本与素材源文件。)*
 
 ---
 
